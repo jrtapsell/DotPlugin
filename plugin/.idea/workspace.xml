@@ -43,8 +43,8 @@
       <file leaf-file-name="ImageViewer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/uk/ac/rhul/cs/csle/arteclipse/dot/editors/ImageViewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="127" column="3" lean-forward="true" selection-start-line="127" selection-start-column="3" selection-end-line="127" selection-end-column="3" />
+            <state relative-caret-position="216">
+              <caret line="100" column="12" lean-forward="false" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4194#4195#0" expanded="true" />
@@ -135,6 +135,8 @@
       <find>setText</find>
       <find>log</find>
       <find>html</find>
+      <find>set</find>
+      <find>logH</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -694,12 +696,12 @@
       <workItem from="1486843506550" duration="1326000" />
       <workItem from="1486849174757" duration="8000" />
       <workItem from="1486849213600" duration="1293000" />
-      <workItem from="1486851797554" duration="34000" />
+      <workItem from="1486851797554" duration="557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48342000" />
+    <option name="totallyTimeSpent" value="48865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -1057,8 +1059,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uk/ac/rhul/cs/csle/arteclipse/dot/editors/ImageViewer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="127" column="3" lean-forward="true" selection-start-line="127" selection-start-column="3" selection-end-line="127" selection-end-column="3" />
+        <state relative-caret-position="216">
+          <caret line="100" column="12" lean-forward="false" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4194#4195#0" expanded="true" />
