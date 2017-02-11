@@ -116,6 +116,7 @@ public class ImageViewer {
     IFile file = file();
     IPath path = file.getProjectRelativePath().addFileExtension("html");
     IFile htmlFile = file.getProject().getFile(path);
+    htmlFile.setHidden(true);
     if (htmlFile.exists()) {
       htmlFile.delete(true, false, null);
     }
