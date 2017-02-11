@@ -2,42 +2,11 @@
 <?metadataRepository version='1.1.0'?>
 <repository name='file:/home/james/eclipse-plugins/DotViewer/.metadata/.plugins/org.eclipse.pde.core/tempp2metadata - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1486849662598'/>
+    <property name='p2.timestamp' value='1486849894162'/>
     <property name='p2.compressed' value='false'/>
   </properties>
-  <units size='4'>
-    <unit id='DotViewer' version='1.0.1.201702112147'>
-      <update id='DotViewer' range='[0.0.0,1.0.1.201702112147)' severity='0'/>
-      <properties size='1'>
-        <property name='org.eclipse.equinox.p2.name' value='DotViewer'/>
-      </properties>
-      <provides size='3'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='DotViewer' version='1.0.1.201702112147'/>
-        <provided namespace='osgi.bundle' name='DotViewer' version='1.0.1.201702112147'/>
-        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
-      </provides>
-      <requires size='7'>
-        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
-        <required namespace='java.package' name='org.eclipse.xtext.util' range='0.0.0'/>
-      </requires>
-      <artifacts size='1'>
-        <artifact classifier='osgi.bundle' id='DotViewer' version='1.0.1.201702112147'/>
-      </artifacts>
-      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-      <touchpointData size='1'>
-        <instructions size='1'>
-          <instruction key='manifest'>
-            Bundle-SymbolicName: DotViewer;singleton:=true&#xA;Bundle-Version: 1.0.1.201702112147
-          </instruction>
-        </instructions>
-      </touchpointData>
-    </unit>
-    <unit id='DotFeature.feature.jar' version='1.0.0.201702112147'>
+  <units size='3'>
+    <unit id='DotFeature.feature.jar' version='1.0.0.201702112151'>
       <properties size='4'>
         <property name='org.eclipse.equinox.p2.name' value='DotPlugin'/>
         <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
@@ -45,15 +14,15 @@
         <property name='org.eclipse.equinox.p2.provider' value='Jrtapsell'/>
       </properties>
       <provides size='3'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='DotFeature.feature.jar' version='1.0.0.201702112147'/>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='DotFeature.feature.jar' version='1.0.0.201702112151'/>
         <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
-        <provided namespace='org.eclipse.update.feature' name='DotFeature' version='1.0.0.201702112147'/>
+        <provided namespace='org.eclipse.update.feature' name='DotFeature' version='1.0.0.201702112151'/>
       </provides>
       <filter>
         (org.eclipse.update.install.features=true)
       </filter>
       <artifacts size='1'>
-        <artifact classifier='org.eclipse.update.feature' id='DotFeature' version='1.0.0.201702112147'/>
+        <artifact classifier='org.eclipse.update.feature' id='DotFeature' version='1.0.0.201702112151'/>
       </artifacts>
       <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
       <touchpointData size='1'>
@@ -72,8 +41,39 @@
         [Enter Copyright Description here.]
       </copyright>
     </unit>
-    <unit id='DotFeature.feature.group' version='1.0.0.201702112147' singleton='false'>
-      <update id='DotFeature.feature.group' range='[0.0.0,1.0.0.201702112147)' severity='0'/>
+    <unit id='DotViewer' version='1.0.1.201702112151'>
+      <update id='DotViewer' range='[0.0.0,1.0.1.201702112151)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='DotViewer'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='DotViewer' version='1.0.1.201702112151'/>
+        <provided namespace='osgi.bundle' name='DotViewer' version='1.0.1.201702112151'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='7'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.xtext.util' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='DotViewer' version='1.0.1.201702112151'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: DotViewer;singleton:=true&#xA;Bundle-Version: 1.0.1.201702112151
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='DotFeature.feature.group' version='1.0.0.201702112151' singleton='false'>
+      <update id='DotFeature.feature.group' range='[0.0.0,1.0.0.201702112151)' severity='0'/>
       <properties size='5'>
         <property name='org.eclipse.equinox.p2.name' value='DotPlugin'/>
         <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
@@ -82,11 +82,11 @@
         <property name='org.eclipse.equinox.p2.type.group' value='true'/>
       </properties>
       <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='DotFeature.feature.group' version='1.0.0.201702112147'/>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='DotFeature.feature.group' version='1.0.0.201702112151'/>
       </provides>
       <requires size='2'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='DotViewer' range='[1.0.1.201702112147,1.0.1.201702112147]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='DotFeature.feature.jar' range='[1.0.0.201702112147,1.0.0.201702112147]'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='DotViewer' range='[1.0.1.201702112151,1.0.1.201702112151]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='DotFeature.feature.jar' range='[1.0.0.201702112151,1.0.0.201702112151]'>
           <filter>
             (org.eclipse.update.install.features=true)
           </filter>
@@ -101,19 +101,6 @@
       <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
         [Enter Copyright Description here.]
       </copyright>
-    </unit>
-    <unit id='DotViewer' version='1.0.0.2--d1Dh--7735G375575AG'>
-      <properties size='2'>
-        <property name='org.eclipse.equinox.p2.name' value='Dot Viewer'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='DotViewer' version='1.0.0.2--d1Dh--7735G375575AG'/>
-      </provides>
-      <requires size='1'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='DotFeature.feature.group' range='[1.0.0.201702112147,1.0.0.201702112147]'/>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
     </unit>
   </units>
 </repository>
