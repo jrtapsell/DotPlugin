@@ -151,7 +151,11 @@ public class ImageViewer {
       if (ret.getSeverity() != IStatus.OK) {
         handleError(ret);
       }
-      return ret;
+      if (ret.getSeverity() == IStatus.ERROR) {
+        return ret;
+      } else {
+        return new Status(IStatus.OK, Activator.PLUGIN_ID, ret.getMessage(), ret.getException());
+      }
     }
 
     private void handleError(final IStatus ret) {

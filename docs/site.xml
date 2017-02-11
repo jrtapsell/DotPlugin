@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/DotFeature_1.0.0.201702112116.jar" id="DotFeature" version="1.0.0.201702112116">
+   <feature url="features/DotFeature_1.0.0.201702112142.jar" id="DotFeature" version="1.0.0.201702112142">
       <category name="DotViewer"/>
    </feature>
    <category-def name="DotViewer" label="Dot Viewer"/>
