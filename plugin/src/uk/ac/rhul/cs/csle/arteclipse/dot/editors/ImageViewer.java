@@ -98,7 +98,7 @@ public class ImageViewer {
     final String errString = err.getString();
     if(returnCode == 0) {
       final String text = getHTML(outString);
-      logHTML(text);
+      //logHTML(text);
       setText(text);
       return Status.OK_STATUS;
     } else {
@@ -116,7 +116,6 @@ public class ImageViewer {
     IFile file = file();
     IPath path = file.getProjectRelativePath().addFileExtension("html");
     IFile htmlFile = file.getProject().getFile(path);
-    htmlFile.setHidden(true);
     if (htmlFile.exists()) {
       htmlFile.delete(true, false, null);
     }
