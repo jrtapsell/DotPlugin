@@ -1,4 +1,10 @@
 .metadata/**
-**/.metadata/**
+**/\.metadata/**
 **/workspace.xml
-**/*.class
+**/*\.class
+
+**/\.project
+**/\.idea/**
+/\.idea/**
+
+plugin/\.idea/
