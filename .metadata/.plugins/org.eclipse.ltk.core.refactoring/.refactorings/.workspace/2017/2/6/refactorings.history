@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DotPlugin&apos; to &apos;feature&apos;" description="Rename resource &apos;DotPlugin&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/DotPlugin" name="feature" stamp="1486847658752" updateReferences="true"/>
+</session>

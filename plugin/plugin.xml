@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="uk.ac.rhul.cs.csle.arteclipse.dot.editors.MultiPageEditor"
+            contributorClass="uk.ac.rhul.cs.csle.arteclipse.dot.editors.MultiPageEditorContributor"
+            extensions="dot"
+            icon="icons/sample.png"
+            id="uk.ac.rhul.cs.csle.arteclipse.dot.editors.MultiPageEditor"
+            name="Sample Multi-page Editor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.core.filebuffers.documentSetup">
+      <participant
+            class="uk.ac.rhul.cs.csle.arteclipse.dot.editors.DotParticipant"
+            extensions="dot">
+      </participant>
+   </extension>
+
+</plugin>
