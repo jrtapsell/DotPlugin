@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: DotViewer
 Bundle-SymbolicName: DotViewer;singleton:=true
-Bundle-Version: 1.0.1.qualifier
+Bundle-Version: 1.0.2.stable
 Bundle-Activator: uk.ac.rhul.cs.csle.arteclipse.dot.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
@@ -13,3 +13,4 @@ Require-Bundle: org.eclipse.ui,
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Import-Package: org.eclipse.xtext.util
+Bundle-Vendor: Jrtapselll
